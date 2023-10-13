@@ -8,7 +8,7 @@ docker build -t 038264519778.dkr.ecr.eu-west-1.amazonaws.com/miaxap1devops .
 # docker run  -p 8080:8080 467432373215.dkr.ecr.eu-west-1.amazonaws.com/fastapi-suma
 
 # Log docker into the aws registry
-aws ecr get-login-password | docker login --username AWS --password-stdin 038264519778.dkr.ecr.eu-west-1.amazonaws.com/miaxap1
+aws ecr get-login-password | docker login --username AWS --password-stdin 038264519778.dkr.ecr.eu-west-1.amazonaws.com/miaxap1devops
 
 
 # Push the image
