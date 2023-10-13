@@ -6,9 +6,9 @@ on:
     - main
 
 env:
-  AWS_REGION: eu-west-3
-  ECR_REPOSITORY: lambdamiax11
-  LAMBDA_NAME: lambdamiax11
+  AWS_REGION: eu-west-1
+  ECR_REPOSITORY: miaxap1devops
+  LAMBDA_NAME: latest
 
 defaults:
   run:
