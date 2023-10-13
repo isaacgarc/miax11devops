@@ -8,7 +8,7 @@ on:
 env:
   AWS_REGION: eu-west-1
   ECR_REPOSITORY: miaxap1devops
-  LAMBDA_NAME: miaxap1devops:latest
+  LAMBDA_NAME: miaxap1devops
 
 defaults:
   run:
